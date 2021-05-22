@@ -1,0 +1,24 @@
+{
+  "name": "studbud",
+  "version": "1.0.0",
+  "description": "a useful study tool for students",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001bex\u001b[C\u001b[C\u001b[C\u001b[Cserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GbayOce/studbud.git"
+  },
+  "keywords": [
+    "Study",
+    "online",
+    "help"
+  ],
+  "author": "David Fu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GbayOce/studbud/issues"
+  },
+  "homepage": "https://github.com/GbayOce/studbud#readme"
+}
