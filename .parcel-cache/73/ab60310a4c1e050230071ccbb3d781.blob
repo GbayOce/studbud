@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+.app-container {
+  background-color: #f4fcf0;
+  padding-left: 120px;
+  height: 100vh;
+  top: 0;
+  overflow: hidden;
+}
+.page-container {
+  margin: 4em;
+}
+.page-container#home {
+  text-align: center;
+}
+.page-container:not(#home) {
+  display: none;
+}
+html {
+  font-size: 100%;
+}
+/*16px*/
+body {
+  background: black;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+p {
+  color: black;
+  margin-bottom: 1rem;
+}
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  color: red;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  line-height: 1.3;
+}
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+h2 {
+  font-size: 2.441rem;
+}
+h3 {
+  font-size: 1.953rem;
+}
+h4 {
+  font-size: 1.563rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+small, .text_small {
+  font-size: 0.8rem;
+}
+label {
+  color: black;
+}
+nav {
+  width: 120px;
+  height: 100%;
+  flex-direction: row;
+  position: fixed;
+  margin: 0;
+  left: 0;
+  top: -30px;
+  padding-top: 50px;
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;
+  overflow: hidden;
+}
+nav .nav-links {
+  list-style: none;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-right: 30px;
+  background-color: #3e742d;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+nav .nav-links .nav-item a {
+  display: block;
+  padding: 3em 0;
+  margin-left: 20px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: azure;
+  overflow: hidden;
+}
+nav .nav-links .nav-item a:hover {
+  color: #32322c;
+}
+nav .nav-links .nav-item a.active {
+  font-weight: bold;
+}
+li {
+  color: #3e742d;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #36f1cd;
+  color: white;
+}
+#task-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "taskform tasklist";
+}
+#taskform {
+  grid-area: taskform;
+  max-width: 300px;
+  position: relative;
+  left: 0px;
+  margin: 0 auto;
+}
+#taskform label {
+  display: block;
+  width: 100%;
+}
+#tasklist {
+  grid-area: tasklist;
+}
+#logo {
+  width: 800px;
+}
+#favicon {
+  width: 100px;
+  align-self: center;
+}
+body {
+  color: #000000;
+}
+.stopwatch {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 23px;
+  width: 100%;
+  padding-top: 25px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+.time {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 48px;
+}
+.studbud {
+  font-weight: 900;
+  color: #00ff22;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 187px;
+}
+.buttonPlay {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+  filter: invert(1);
+}
+.buttonReset {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+  filter: invert(70%);
+}
+#playButton {
+  display: block;
+}
+#pauseButton {
+  display: none;
+}
+#background-circle {
+  height: 1000px;
+  width: 1000px;
+  background-color: #d4e5be;
+  border-radius: 50%;
+  position: relative;
+  bottom: 850px;
+  left: 10px;
+  z-index: -1;
+}
+#musicbot {
+  z-index: -1;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.top-bar {
+  display: inline-block;
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px;
+  gap: 15px 10px;
+}
+.topTask {
+  background-color: #b6e6b6;
+  size: 20px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+/*# sourceMappingURL=index.HASH_REF_cdc6c3dfc42276baec50c0da6b346840.css.map */

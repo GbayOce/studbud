@@ -1,0 +1,47 @@
+.app-container {
+  background-color: rgb(243, 255, 240);
+  padding-left: 120px;
+  height: 100vh; 
+  top: 0;
+  overflow: hidden;
+}
+
+
+.page-container {
+  margin : 4em;
+
+  &#home {
+    text-align: center;
+  }
+  &:not(#home){
+    display: none;
+  } 
+
+}
+//background image for pomodoro
+#page5{ 
+  background-image: url("https://cdn.discordapp.com/attachments/615908281507905556/852845591545511977/pomodoroo.png");
+  z-index: 5;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position-x: 35px ;
+  background-position-y: -70px ;
+}
+
+// #page3{ 
+//   background-image: url("https://cdn.discordapp.com/attachments/615908281507905556/852842350820720710/music.png");
+//   z-index: 5;
+//   background-repeat: no-repeat; /* Do not repeat the image */
+//   background-size: cover; /* Resize the background image to cover the entire container */
+//   background-position-x: 0px ;
+//   background-position-y: 0px ;
+// }
+
+// #page1{ 
+//   background-image: url("https://cdn.discordapp.com/attachments/615908281507905556/852849919869059082/task.png");
+//   z-index: 1;
+//   background-repeat: no-repeat; /* Do not repeat the image */
+//   background-size: cover; /* Resize the background image to cover the entire container */
+//   background-position-x: 0px ;
+//   background-position-y: 0px ;
+// }

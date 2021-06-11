@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>StudBud</title>
+	<link href="ac2b17b88ef0ab3e3e3316d5a6be3892" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="193758488e9b82e0110448e2ac1b5b91">
+</head>
+
+<body class="app-container">
+
+  <nav class="top-nav">
+    <ul class="nav-links">
+      <li class="nav-item"><a href="#home" class="active"><img id="favicon" src="51d5dffeca04e5b782726906eb0dd907"></a></li>
+      <li class="nav-item"><a href="#page1">Task List</a></li>
+      <li class="nav-item"><a href="#page2">Stopwatch</a></li>
+      <li class="nav-item"><a href="#page3">Music</a></li>
+      <li class="nav-item"><a href="#page4">Kanban</a></li>
+      <li class="nav-item"><a href="#page5">Pomodoro</a></li>
+      <li class="nav-item"><a href="#page6">ReadingList</a></li>
+    </ul>
+  </nav>
+
+  <div id="home" class="page-container">
+<br>
+	<h1>Rho is beyond fat</h1>
+	<p>This time with <a href="a72065957fe902f40f1ba688f0450f00">Express</a> + <a href="8d8dc26c6986d8d40d8f3b9fe89723c6">Parcel</a> + <a href="8e6645975e6ba0cb20bed489a75ac873">SASS (SCSS)</a>!</p>
+ </div>
+ <div class="top-bar">
+  <p>Task</p>
+  <p>Due Date</p>
+  <p>Estimated time</p>
+  <p>Complete</p>
+</div> 
+
+ <div id="page1" class="page-container">
+  <br>
+    <h1>Task List</h1>
+    
+    <div id="task-grid">
+      <form id="taskform">
+        <label for="task"> Task:</label>
+        <input type="text" name="task" id="taskInput">
+  
+ 
+  <label for="dueDate"> Due Date: </label>
+  <input type="date" name="dueDate" id="dueDateInput">
+  
+
+  <label for="completionTime">Completion Time </label>
+    <input type="time" name="completionTime" id="completionTimeInput">
+  
+
+  <label for="estimatedTime">Estimated completion time(in mins): </label>
+  <input type="number" name="estimatedTime" id="estimatedTimeInput">
+  
+ 
+  
+  <label for="priority">Task Priority: </label>
+  <select name="priority" id="priorityInput">
+    <option value="">Select one</option>
+      <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+          <option value="High">High</option>
+  </select>
+  <br>
+
+        <button type="submit">Submit</button>
+      </form>
+  
+      <ul id="tasklist">
+        <p id="emptyList"> You have not added any tasks yet.</p>
+      </ul>
+    </div>
+ </div>
+
+ <div id="page2" class="page-container">
+  <br>
+    <body>
+      <div class="stopwatch">
+        <h1><span class="studbud">Stud</span>Bud Stopwatch</h1>
+        <div class="circle">
+          <span class="time" id="display">00:00:00</span>
+        </div>
+  
+        <div class="controls">
+          <button class="buttonPlay">
+            <img id="playButton" src="28fa4a8c1d67309dd694b408d03c9e1b">
+  
+            <img id="pauseButton" src="3b2e3dcc44329d79a57abb082a7a76aa">
+          </button>
+  
+          <button class="buttonReset">
+            <img id="resetButton" src="fea681e577c55e622d412caa2ab27025">
+          </button>
+      </div>
+      <div id="background-circle"></div>
+    </div></body>
+</div>
+
+<div id="page3" class="page-container">
+  <div id="musicbot">
+  <script src="3e28ecf9553c9ec2d2a17b0c0a9b2854" defer=""></script>
+  <div id="musicbot" class="elfsight-app-fc906ed1-2ace-403d-81d0-83a3b71295ce"></div>
+</div>
+</div>
+
+<div id="page4" class="page-container">
+  <br>
+  <h1>Kanban Board</h1>
+</div>
+<div id="page5" class="page-container">
+  <br>
+  <h1> Pomodoro </h1>
+  <div class="center">
+    <div class="title">
+      Pomodoro Clock
+    </div>
+    <div class="settings">
+      <div class="break">
+        <div class="description">Break Length</div>
+        <div class="value">
+          <span class="control db">-</span> <span class="v">5</span> <span class="control ib">+</span>
+        </div>
+      </div>
+      <div class="session">
+        <div class="description">Session Length</div>
+        <div class="value">
+          <span class="control ds">-</span> <span class="v">25</span> <span class="control is">+</span>
+        </div>
+      </div>
+    </div>
+    <div class="pomodoro">
+      <div class="fill session">
+      </div>
+      <div class="fill break">
+      </div>
+      <div class="time-left">
+      </div>
+      <div class="status">Click to Start</div>
+    </div>
+    <div class="next-pomodoro">
+      Next
+    </div>
+    <div class="reset-pomodoro">
+      Reset
+    </div>
+  </div>
+</div>
+<div id="page6" class="page-container">
+  <br>
+</div>
+
+<script src="4e6340146f7d0152c44dbd6ccf58b0e0"></script>
+</body>
+
+</html>

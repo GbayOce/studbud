@@ -1,0 +1,89 @@
+body {
+    color: #000000;
+  }
+ 
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 300px;
+    width: 300px;
+  
+    border: 2px solid;
+    border-radius: 50%;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .studbud {
+    font-weight: 900;
+    color: #00ff22;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  .buttonPlay {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+  }
+
+  .buttonReset {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+
+  }
+  
+  #pauseButton {
+    display: none;
+  }
+  
+  // #background-circle {
+  //   height: 1000px;
+  //   width: 1000px;
+  //   background-color: rgb(212, 229, 190);
+  //   border-radius: 50%;
+  //   position: relative;
+  //   bottom: 850px;
+  //   left:10px ;
+  //   z-index: -1;
+  // }
+
+
+#page2{ 
+  background-image: url("https://cdn.discordapp.com/attachments/766899591709982732/852543527800012901/stopwatch_page.png");
+  z-index: 5;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position-x: 25px ;
+  background-position-y: -20px ;
+}

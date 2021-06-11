@@ -1,0 +1,16 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _navigationJs = require("./components/navigation.js");
+var _navigationJsDefault = parcelHelpers.interopDefault(_navigationJs);
+var _tasklistJs = require("./components/tasklist.js");
+var _stopwatchJs = require("./components/stopwatch.js");
+var _musicJs = require("./components/music.js");
+const links = document.querySelectorAll('nav > ul > li > a');
+const pages = document.querySelectorAll('.page-container');
+var nav = new _navigationJsDefault.default(links, pages);
+nav.getLinks();
+nav.links.forEach(function(link) {
+    link.addEventListener('click', function() {
+        let pageId = nav.getHash(link);
+        nav.setPage(pageId);
+    });
+});

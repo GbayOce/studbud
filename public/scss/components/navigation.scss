@@ -1,0 +1,55 @@
+nav {
+   width: 120px;
+    height: 100%;
+    flex-direction: row;
+    position: fixed;
+    margin: 0;
+    left: 0;
+    top:-30px;
+    padding-top: 50px;
+    display:block;
+    justify-content:space-around;
+    align-items: center;
+    padding-right: 50px;
+    overflow: hidden;
+
+    .nav-links {
+        list-style: none;
+        display: block;
+        position:absolute;
+        left:0;
+        top:0;
+        padding-right: 30px;
+        background-color:rgb(62, 116, 45);
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        .nav-item a {
+            display: block;
+            padding: 3em 0;
+            margin-left: 20px;
+            margin: auto;
+            text-align: center;
+            text-decoration: none;
+            color: azure;
+            overflow:hidden;
+
+            &:hover {
+                color :rgb(50, 50, 44)
+            }
+            &.active {
+                font-weight: bold;
+            }
+        }
+    }
+}
+li {
+    color: rgb(62, 116, 45);
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(54, 241, 205);
+  color: white;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>StudBud</title>
+	<link href="/index.HASH_REF_cdc6c3dfc42276baec50c0da6b346840.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body class="app-container">
+
+  <nav class="top-nav">
+    <ul class="nav-links">
+      <li class="nav-item"><a href="#home" class="active"><img id="favicon" src="https://cdn.discordapp.com/attachments/615908281507905556/851795847159087144/studbud_favicon.png"></a></li>
+      <li class="nav-item"><a href="#page1">Task List</a></li>
+      <li class="nav-item"><a href="#page2">Stopwatch</a></li>
+      <li class="nav-item"><a href="#page3">Music</a></li>
+      <li class="nav-item"><a href="#page4">Kanban</a></li>
+      <li class="nav-item"><a href="#page5">Pomodoro</a></li>
+      <li class="nav-item"><a href="#page6">ReadingList</a></li>
+    </ul>
+  </nav>
+
+  <div id="home" class="page-container">
+<br>
+<h1><span class="titleStud">Stud</span>Bud Hub</h1>
+
+  <hr>
+
+ <div class="top-bar">
+  <div class="topTask">Task</div>
+  <div class="topDue">Due Date</div>
+  <div class="topEst"> Estimated time</div>
+  <div class="topComplete">Complete</div>
+</div> 
+</div>
+
+ <div id="page1" class="page-container">
+  <br>
+  <h1><span class="taskStud">Stud</span>Bud TaskList</h1>
+    
+    <div id="task-grid">
+      <form id="taskform">
+        <label for="task"> Task:</label>
+        <input type="text" name="task" id="taskInput">
+  
+ 
+  <label for="dueDate"> Due Date: </label>
+  <input type="date" name="dueDate" id="dueDateInput">
+  
+
+  <label for="completionTime">Completion Time </label>
+    <input type="time" name="completionTime" id="completionTimeInput">
+  
+
+  <label for="estimatedTime">Estimated completion time(in mins): </label>
+  <input type="number" name="estimatedTime" id="estimatedTimeInput">
+  
+ 
+  
+  <label for="priority">Task Priority: </label>
+  <select name="priority" id="priorityInput">
+    <option value="">Select one</option>
+      <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+          <option value="High">High</option>
+  </select>
+  <br>
+
+        <button type="submit">Submit</button>
+      </form>
+  
+      <ul id="tasklist">
+        <p id="emptyList"> You have not added any tasks yet.</p>
+      </ul>
+    </div>
+ </div>
+
+ <div id="page2" class="page-container">
+  <img id="backgroundStopwatch" src="https://cdn.discordapp.com/attachments/766899591709982732/852543527800012901/stopwatch_page.png">
+    <body>
+      <div class="stopwatch">
+        <h1><span class="studbud">Stud</span>Bud Stopwatch</h1> 
+        <div class="circle">
+          <span class="time" id="display">00:00:00</span>
+        </div>
+  
+        <div class="controls">
+          <button class="buttonPlay">
+            <img id="playButton" src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/play-button_opkxmt.svg">
+  
+            <img id="pauseButton" src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/pause-button_pinhpy.svg">
+          </button>
+  
+          <button class="buttonReset">
+            <img id="resetButton" src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/reset-button_mdv6wf.svg">
+          </button>
+      </div>
+      <div id="background-circle"></div>
+      
+    </div></body>
+</div>
+
+<div id="page3" class="page-container">
+  <div id="musicbot">
+  <script src="https://apps.elfsight.com/p/platform.js" defer=""></script>
+  <div id="musicbot" class="elfsight-app-fc906ed1-2ace-403d-81d0-83a3b71295ce"></div>
+</div>
+</div>
+
+<div id="page4" class="page-container">
+  <br>
+  <h1>Kanban Board</h1>
+</div>
+<div id="page5" class="page-container">
+  <br>
+  <h1> Pomodoro </h1>
+</div>
+<div id="page6" class="page-container">
+  <br>
+</div>
+
+<script src="/index.HASH_REF_97912cc17f1f5bdf37964fbc8a5bc16d.js"></script>
+</body>
+
+</html>
